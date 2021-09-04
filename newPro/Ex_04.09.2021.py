@@ -1,32 +1,32 @@
-# print('Задание 1')
-#
-# def card_num(t):
-#     print('**** **** ****', t[::-4])
-#
-#
-#     print(card_num)
-# t=(input('введите номер карты'))
-# card_num(t)
-#
-# print('_______')
-# print("задание 2")
-#
-# a=(input("ввести слово"))
-# def polindrom():
-#
-#
-#     b = a.split()
-#     b = ''.join(b)
-#
-#     if b[::1] == b[::-1]:
-#         print("палиндром")
-#     else:
-#         print("не палиндром")
-#
-#
-# polindrom()
-# print('____________')
-# print('задание 3')
+ print('Задание 1')
+
+def card_num(t):
+    print('**** **** ****', t[::-4])
+
+
+     print(card_num)
+ t=(input('введите номер карты'))
+ card_num(t)
+
+ print('_______')
+ print("задание 2")
+
+ a=(input("ввести слово"))
+ def polindrom():
+
+
+     b = a.split()
+     b = ''.join(b)
+
+     if b[::1] == b[::-1]:
+         print("палиндром")
+     else:
+         print("не палиндром")
+
+
+ polindrom()
+ print('____________')
+ print('задание 3')
 
 
 class Tomato:
